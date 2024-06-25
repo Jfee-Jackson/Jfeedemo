@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JaiParkashKhatri</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/f1e7e2de65.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!---------------header--------------------------->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <span class="logo"><a href="#header">Jai Parkash.</a></span>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="headerText">Hi, i'm <span class="purpleHeading"> Jai Parkash </span>From Pakistan <br><span id="element"></span></div>
+        </div>
+    </div>
+    <!---------------About--------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="colm1">
+                    <img src="web3.jpg" >
+                </div>
+                <div class="colm2">
+                    <h1 class="subTitle">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, eos. Doloribus voluptatibus quis earum a!</p>
+                    <div class="tabTitles">
+                        <p class="tabLinks activeLink" onclick="opentab('skills')">Skills</p>
+                        <p class="tabLinks" onclick="opentab('experience')">Experience</p>
+                        <p class="tabLinks" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tabContent activeTab" id="skills">
+                        <ul>
+                            <li><span>UI UX<br></span>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Html5<br>Css3<br>Javascript</li>
+                            <li><span>Graphics Designer</span><br>Photoshop<br>Illustrator</li>
+                            <li><span>Python Developer</span><br>Python for machine learning and Ai</li>
+                        </ul>
+                    </div>
+                    <div class="tabContent " id="experience">
+                        <ul>
+                            <li><span>2024 - Current<br></span>open to work</li>
+                            <li><span>2023 - 2024</span><br>At Fiverr FreeLancing</li>
+                            <li><span>2022 - 2023</span><br>learning about Ai / Ml </li>
+                            <li><span>2021 - 2022</span><br>work from home</li>
+                        </ul>
+                    </div>
+                    <div class="tabContent" id="education">
+                        <ul>
+                            <li><span>2021 - Current<br></span>pursuing degree at Quaid-e-Awan university of Engeening, Science and Technology</li>
+                            <li><span>2020</span><br>Graduation from Sarwari Islamia Degree College Hala New</li>
+                            <li><span>2018</span><br>M G govt High School Hala New</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------services--------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="subTitle">My Services</h1>
+            <div class="servicesList">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam harum maxime nesciunt, voluptas quia ea nemo esse soluta quis accusantium.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Graphic Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam harum maxime nesciunt, voluptas quia ea nemo esse soluta quis accusantium.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>  
+                    <h2>Python Developer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam harum maxime nesciunt, voluptas quia ea nemo esse soluta quis accusantium.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------Portfolio--------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subTitle">My Work</h1>
+            <div class="workList">
+                <div class="work">
+                    <img src="web3.jpg" alt="workImage">
+                    <div class="layer">
+                        <h3>Social Media</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, nostrum doloribus consectetur maxime laboriosam facilis!</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="web3.jpg" alt="workImage">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, nostrum doloribus consectetur maxime laboriosam facilis!</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="web3.jpg" alt="workImage">
+                    <div class="layer">
+                        <h3>Online App Shopping</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, nostrum doloribus consectetur maxime laboriosam facilis!</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!---------------Contact--------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contactLeft">
+                    <h1 class="subTitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>jfeejackson@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+92 330 8366 742</p>
+                    <p><i class="fa-brands fa-whatsapp"></i>+92 340 3524 159</p>
+                    <div class="socialIcon">
+                        <a href="https://pk.linkedin.com/in/jai-parkash-khatri-025a242bb"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/jaiparkash.khatri.9212?mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.instagram.com/jaiparkashkhatri_?igsh=d3ZwcWJqeDJyNnly"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    </div>
+                    <a href="Poppins.zip" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contactRight">  
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Enter Email">
+                        <textarea name="Message" rows="6" placeholder="Enter your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> Jai Parkash.</p>
+        </div>
+    </div>
+    <!---------------scripts--------------------------->
+      
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Graphic Designer','UI UX Designer','Python Developer'],
+          typeSpeed: 80,
+        });
+        var tabLinks = document.getElementsByClassName("tabLinks");
+        var tabContents = document.getElementsByClassName("tabContent");
+
+        function opentab(tabname){
+            for(tabLink of tabLinks){
+                tabLink.classList.remove("activeLink");
+            }
+            for(tabContent of tabContents){
+                tabContent.classList.remove("activeTab");
+            }
+            event.currentTarget.classList.add("activeLink")
+            document.getElementById(tabname).classList.add("activeTab")
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzI9HcdTZusOXXKmVk1qY0fyRh4V4ycXX0oSL0YFq_NPDWHXjgd_df-cKT5lkzD93idog/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent Successfully!"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },10000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
