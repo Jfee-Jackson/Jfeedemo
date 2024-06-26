@@ -201,6 +201,7 @@ nav ul li a:hover::after{
     margin-top: 50px;
 }
 .workList ul h3{
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 .work{
@@ -263,7 +264,7 @@ nav ul li a:hover::after{
 }
 .btn{
     display: block;
-    margin: 50px auto;
+    margin: 30px auto;
     width: fit-content;
     border: 1px solid #505CA8;
     padding: 14px;
