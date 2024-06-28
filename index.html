@@ -1,245 +1,346 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JaiParkashKhatri</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"/>
-    <script src="https://kit.fontawesome.com/f1e7e2de65.js" crossorigin="anonymous"></script>
-</head>
-<body>
-
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/f1e7e2de65.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <!---------------header--------------------------->
 
     <div id="header">
-        <div class="container">
-            <nav>
-                <span class="logo"><a href="#">Jai Parkash.</a></span>
-                <ul id="sidemenu">
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Projects</a></li>
-                    <li><a href="#contact">Contact Me</a></li>
-                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
-                </ul>
-                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
-            </nav>
-            <div class="headerText">Hi, i'm <span class="purpleHeading"> Jai Parkash </span>From Pakistan <br><span id="element"></span></div>
+      <div class="container">
+        <nav>
+          <span class="logo"><a href="#">Jai Parkash.</a></span>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+            <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="headerText">
+          Hi, i'm <span class="purpleHeading"> Jai Parkash </span>From Pakistan
+          <br /><span id="element"></span>
         </div>
+      </div>
     </div>
 
     <!---------------About Me--------------------------->
 
     <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="colm1">
-                    <img src="web3.jpg" >
-                </div>
-                <div class="colm2">
-                    <h1 class="subTitle">About Me</h1>
-                    <p>Hello! I'm an enthusiastic third-year student majoring in Artificial Intelligence. With a deep passion for both technology and creativity, I have honed a unique skill set that bridges the gap between graphic design and web development.
-                    Combining my love for AI with my expertise in design and development, I aim to innovate and push boundaries in every project I undertake. I'm always eager to learn, grow, and collaborate on exciting new ventures.
-                    Let's connect and create something amazing together!</p>
-                    <div class="tabTitles">
-                        <p class="tabLinks activeLink" onclick="opentab('skills')">Skills</p>
-                        <p class="tabLinks" onclick="opentab('experience')">Experience</p>
-                        <p class="tabLinks" onclick="opentab('education')">Education</p>
-                    </div>
-                    <div class="tabContent activeTab" id="skills">
-                        <ul>
-                            <li><span>Web Development</span><br>Html5<br>Css3<br>Javascript</li>
-                            <li><span>Graphics Designer</span><br>Photoshop<br>Illustrator</li>
-                        </ul>
-                    </div>
-                    <div class="tabContent " id="experience">
-                        <ul>
-                            <li><span>2021 - Current<br></span>Online Projects Hunting</li>
-                        </ul>
-                    </div>
-                    <div class="tabContent" id="education">
-                        <ul>
-                            <li><span>2021 - Current<br></span>Bachelor's (BS-Artificial Intelligence) / Quaid-e-Awan University of Engineering, Science and Technology Nawabshah.</li>
-                            <li><span>2020</span><br>12th / Sarwari Islamia Degree College Hala New</li>
-                            <li><span>2018</span><br>10th / M-G-Govt High School Hala New</li>
-                        </ul>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="colm1">
+            <img src="web3.jpg" />
+          </div>
+          <div class="colm2">
+            <h1 class="subTitle">About Me</h1>
+            <p>
+              Hello! I'm an enthusiastic third-year student majoring in
+              Artificial Intelligence. With a deep passion for both technology
+              and creativity, I have honed a unique skill set that bridges the
+              gap between graphic design and web development. Combining my love
+              for AI with my expertise in design and development, I aim to
+              innovate and push boundaries in every project I undertake. I'm
+              always eager to learn, grow, and collaborate on exciting new
+              ventures. Let's connect and create something amazing together!
+            </p>
+            <div class="tabTitles">
+              <p class="tabLinks activeLink" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tabLinks" onclick="opentab('experience')">Experience</p>
+              <p class="tabLinks" onclick="opentab('education')">Education</p>
             </div>
+            <div class="tabContent activeTab" id="skills">
+              <ul>
+                <li>
+                  <span>Web Development</span
+                  ><br /><img src="html.jpg" alt="imagehtml"><img src="css.png" alt="imagecss"><img src="js.png" alt="imagejavascript">
+                </li>
+                <li>
+                  <span>Graphics Designer</span>><br /><img src="ps.png" alt="imagephotoshop"><img src="ai.png" alt="imageillustrator">
+                </li>
+              </ul>
+            </div>
+            <div class="tabContent" id="experience">
+              <ul>
+                <li>
+                  <span>2021 - Current<br /></span>Online Projects Hunting
+                </li>
+              </ul>
+            </div>
+            <div class="tabContent" id="education">
+              <ul>
+                <li>
+                  <span>2021 - Current<br /></span>Bachelor's (BS-Artificial
+                  Intelligence) / Quaid-e-Awan University of Engineering,
+                  Science and Technology Nawabshah.
+                </li>
+                <li>
+                  <span>2020</span><br />12th / Sarwari Islamia Degree College
+                  Hala New
+                </li>
+                <li>
+                  <span>2018</span><br />10th / M-G-Govt High School Hala New
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <!---------------services--------------------------->
 
     <div id="services">
-        <div class="container">
-            <h1 class="subTitle">My Services</h1>
-            <div class="servicesList">
-                <div>
-                    <i class="fa-solid fa-code"></i>
-                    <h2>Web Development</h2>
-                    <p>As a Web Developer, I translate these designs into interactive, user-friendly websites. My coding skills and understanding of user experience allow me to create seamless digital experiences that captivate and engage users.</p>
-                    <a href="#">Learn More</a>
-                </div>
-                <div>
-                    <i class="fa-solid fa-crop"></i>
-                    <h2>Graphic Designs </h2>
-                    <p>As a Graphic Designer, I bring ideas to life through visually stunning designs. My work blends aesthetics with functionality, ensuring that each project not only looks good but also serves its intended purpose effectively.</p>
-                    <a href="#">Learn More</a>
-                </div>
-            </div>
+      <div class="container">
+        <h1 class="subTitle">My Services</h1>
+        <div class="servicesList">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              As a Web Developer, I translate these designs into interactive,
+              user-friendly websites. My coding skills and understanding of user
+              experience allow me to create seamless digital experiences that
+              captivate and engage users.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>Graphic Designs</h2>
+            <p>
+              As a Graphic Designer, I bring ideas to life through visually
+              stunning designs. My work blends aesthetics with functionality,
+              ensuring that each project not only looks good but also serves its
+              intended purpose effectively.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
         </div>
+      </div>
     </div>
 
     <!---------------work--------------------------->
 
     <div id="portfolio">
-        <div class="container">
-            <h1 class="subTitle">My Work</h1>
-            <div class="workList">
-                <ul><h3>Stunning Designs</h3>
-                <div class="work">
-                    <img src="Rivas.jpg" alt="workImage">
-                    <div class="layer">
-                        <h3>Rivas Tile & Painting, LLC</h3>
-                        <p>Hi again! It’s a huge pleasure for us to have you here, and it’s also time to let you know more about our company. Then, here at Rivas Tile & Painting, LLC......</p>
-                        <a href="https://rivastileandpaintingllc.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="CERBERUS.jpg" alt="workImage">
-                    <div class="layer">
-                        <h3>Curberus Security limited</h3>
-                        <p>Cerberus is not only one of the UKs fastest growing security companies, but was also a known as in greek mythology, a 3 headed beast that guarded Hades and the underworld, or was better known as the hounds of hades.......</p>
-                        <a href="https://cerberussec.co.uk/dog-handling/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="Watkins.jpg" alt="workImage">
-                    <div class="layer">
-                        <h3>Watkins Construction Company, LLC</h3>
-                        <p>Watkins Construction Co., LLC is a general contracting firm and a family business with more than 60 years of history serving oil and gas industry customers.......</p>
-                        <a href="https://www.watkinsconstruction.com/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="MCHL-Dubai Est 1994.jpg" alt="workImage">
-                    <div class="layer">
-                        <h3>MCHL-Dubai Est 1994</h3>
-                        <p>The Dubai League (officially the Dubai Mighty Camels Amateur Men's Ice Hockey League) is a competition largely composed of expatriate players in the United Arab Emirates........</p>
-                        <a href="https://internationalhockeywiki.com/ihw/index.php/Dubai_League"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="Baileys.jpg" alt="workImage">
-                    <div class="layer">
-                        <h3><A>Baileys</A></h3>
-                        <p>At Baileys, we believe that companies can bring positive changes. With that in mind, we are working non-stop on our most important recipe ever: ‘The Good ’ . Despite the fact that this ‘ recipe ’ is still in full development........</p>
-                        <a href="https://www.baileys.com/nl-nl/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                </ul>
+      <div class="container">
+        <h1 class="subTitle">My Work</h1>
+        <div class="workList">
+          <ul>
+            <h3>Stunning Designs</h3>
+            <div class="work">
+              <img src="Rivas.jpg" alt="workImage" />
+              <div class="layer">
+                <h3>Rivas Tile & Painting, LLC</h3>
+                <p>
+                  Hi again! It’s a huge pleasure for us to have you here, and
+                  it’s also time to let you know more about our company. Then,
+                  here at Rivas Tile & Painting, LLC......
+                </p>
+                <a href="https://rivastileandpaintingllc.com/"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
             </div>
-            <div class="workList">
-                <ul>
-                    <h3>Captivate Web Development</h3>
-                    <div class="work">
-                        <img src="ihonese.png" alt="workImage">
-                    <div class="layer">
-                        <h3>Jai Parkash.</h3>
-                        <p>Hello! I'm an enthusiastic third-year student majoring in Artificial Intelligence. With a deep passion for both technology and creativity, I have honed a unique skill set that bridges the gap between graphic design and web development.......</p>
-                        <a href="https://jfee-jackson.github.io/Jfeedemo/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                    </div>
-                </ul>
+            <div class="work">
+              <img src="CERBERUS.jpg" alt="workImage" />
+              <div class="layer">
+                <h3>Curberus Security limited</h3>
+                <p>
+                  Cerberus is not only one of the UKs fastest growing security
+                  companies, but was also a known as in greek mythology, a 3
+                  headed beast that guarded Hades and the underworld, or was
+                  better known as the hounds of hades.......
+                </p>
+                <a href="https://cerberussec.co.uk/dog-handling/"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
             </div>
+            <div class="work">
+              <img src="Watkins.jpg" alt="workImage" />
+              <div class="layer">
+                <h3>Watkins Construction Company, LLC</h3>
+                <p>
+                  Watkins Construction Co., LLC is a general contracting firm
+                  and a family business with more than 60 years of history
+                  serving oil and gas industry customers.......
+                </p>
+                <a href="https://www.watkinsconstruction.com/index.html"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="MCHL-Dubai Est 1994.jpg" alt="workImage" />
+              <div class="layer">
+                <h3>MCHL-Dubai Est 1994</h3>
+                <p>
+                  The Dubai League (officially the Dubai Mighty Camels Amateur
+                  Men's Ice Hockey League) is a competition largely composed of
+                  expatriate players in the United Arab Emirates........
+                </p>
+                <a
+                  href="https://internationalhockeywiki.com/ihw/index.php/Dubai_League"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="Baileys.jpg" alt="workImage" />
+              <div class="layer">
+                <h3><a>Baileys</a></h3>
+                <p>
+                  At Baileys, we believe that companies can bring positive
+                  changes. With that in mind, we are working non-stop on our
+                  most important recipe ever: ‘The Good ’ . Despite the fact
+                  that this ‘ recipe ’ is still in full development........
+                </p>
+                <a href="https://www.baileys.com/nl-nl/"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+          </ul>
         </div>
+        <div class="workList">
+          <ul>
+            <h3>Captivate Web Development</h3>
+            <div class="work">
+              <img src="ihonese.png" alt="workImage" />
+              <div class="layer">
+                <h3>Jai Parkash.</h3>
+                <p>
+                  Hello! I'm an enthusiastic third-year student majoring in
+                  Artificial Intelligence. With a deep passion for both
+                  technology and creativity, I have honed a unique skill set
+                  that bridges the gap between graphic design and web
+                  development.......
+                </p>
+                <a href="https://jfee-jackson.github.io/Jfeedemo/"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+          </ul>
+        </div>
+      </div>
     </div>
 
     <!---------------Contact--------------------------->
 
     <div id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="contactLeft">
-                    <h1 class="subTitle">Contact Me</h1>
-                    <p><i class="fa-solid fa-paper-plane"></i>jfeejackson@gmail.com</p>
-                    <p><i class="fa-solid fa-square-phone"></i>+92 330 8366 742</p>
-                    <p><i class="fa-brands fa-whatsapp"></i>+92 340 3524 159</p>
-                    <div class="socialIcon">
-                        <a href="https://pk.linkedin.com/in/jai-parkash-khatri-025a242bb"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="https://www.facebook.com/jaiparkash.khatri.9212?mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i></a>
-                        <a href="https://www.instagram.com/jaiparkashkhatri_?igsh=d3ZwcWJqeDJyNnly"><i class="fa-brands fa-square-instagram"></i></a>
-                        <a href="https://www.fiverr.com/j_p_khatri?source=gig_page"><i class="fa-brands fa-square-x-twitter"></i></a>
-                    </div>
-                    <a href="Poppins.zip" download class="btn btn2">Download CV</a>
-                </div>
-                <div class="contactRight">  
-                    <form name="submit-to-google-sheet">
-                        <input type="text" name="Name" placeholder="Your Name" required>
-                        <input type="email" name="Email" placeholder="Enter Email">
-                        <textarea name="Message" rows="6" placeholder="Enter your message"></textarea>
-                        <button type="submit" class="btn btn2">Submit</button>
-                    </form>
-                    <span id="msg"></span>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="contactLeft">
+            <h1 class="subTitle">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>jfeejackson@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>+92 330 8366 742</p>
+            <p><i class="fa-brands fa-whatsapp"></i>+92 340 3524 159</p>
+            <div class="socialIcon">
+              <a href="https://pk.linkedin.com/in/jai-parkash-khatri-025a242bb"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a
+                href="https://www.facebook.com/jaiparkash.khatri.9212?mibextid=ZbWKwL"
+                ><i class="fa-brands fa-square-facebook"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/jaiparkashkhatri_?igsh=d3ZwcWJqeDJyNnly"
+                ><i class="fa-brands fa-square-instagram"></i
+              ></a>
+              <a href="https://www.fiverr.com/j_p_khatri?source=gig_page"
+                ><i class="fa-brands fa-square-x-twitter"></i
+              ></a>
             </div>
+            <a href="Poppins.zip" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contactRight">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input type="email" name="Email" placeholder="Enter Email" />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Enter your message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
         </div>
-        <div class="copyright">
-            <p>Copyright <i class="fa-regular fa-copyright"></i> Jai Parkash.</p>
-        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Jai Parkash.</p>
+      </div>
     </div>
 
     <!---------------scripts--------------------------->
-      
+
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
-        var typed = new Typed('#element', {
-          strings: ['Web Developer', 'Graphic Designer',],
-          typeSpeed: 80,
-        });
-        var tabLinks = document.getElementsByClassName("tabLinks");
-        var tabContents = document.getElementsByClassName("tabContent");
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Graphic Designer"],
+        typeSpeed: 80,
+        loop: true,
+      });
+      var tabLinks = document.getElementsByClassName("tabLinks");
+      var tabContents = document.getElementsByClassName("tabContent");
 
-        function opentab(tabname){
-            for(tabLink of tabLinks){
-                tabLink.classList.remove("activeLink");
-            }
-            for(tabContent of tabContents){
-                tabContent.classList.remove("activeTab");
-            }
-            event.currentTarget.classList.add("activeLink")
-            document.getElementById(tabname).classList.add("activeTab")
+      function opentab(tabname) {
+        for (tabLink of tabLinks) {
+          tabLink.classList.remove("activeLink");
         }
+        for (tabContent of tabContents) {
+          tabContent.classList.remove("activeTab");
+        }
+        event.currentTarget.classList.add("activeLink");
+        document.getElementById(tabname).classList.add("activeTab");
+      }
     </script>
     <script>
-        var sidemeu = document.getElementById("sidemenu");
-        function openmenu(){
-            sidemeu.style.right = "0";
-        }
-        function closemenu(){
-            sidemeu.style.right = "-200px";
-        }
+      var sidemeu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemeu.style.right = "0";
+      }
+      function closemenu() {
+        sidemeu.style.right = "-200px";
+      }
     </script>
     <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbzI9HcdTZusOXXKmVk1qY0fyRh4V4ycXX0oSL0YFq_NPDWHXjgd_df-cKT5lkzD93idog/exec'
-        const form = document.forms['submit-to-google-sheet']
-        const msg = document.getElementById("msg")
-      
-        form.addEventListener('submit', e => {
-          e.preventDefault()
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => {
-                msg.innerHTML = "Message sent Successfully!"
-                setTimeout(function(){
-                    msg.innerHTML = ""
-                },10000)
-                form.reset()
-            })
-            .catch(error => console.error('Error!', error.message))
-        })
-      </script>
-</body>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzI9HcdTZusOXXKmVk1qY0fyRh4V4ycXX0oSL0YFq_NPDWHXjgd_df-cKT5lkzD93idog/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent Successfully!";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 10000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
 </html>
