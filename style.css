@@ -153,9 +153,12 @@ nav ul li a:hover::after{
     margin-top: 10px;
     margin-right: 10px;
 }
+#education ul li img{
+    width: 200px;
+}
 .tabContent ul li img:hover{
     transform: translateY(-10px);
-    rotate: 360deg;
+    scale: 1.5;
     transition: 1s;
 }
 .tabContent{
@@ -193,11 +196,17 @@ nav ul li a:hover::after{
     margin-bottom: 15px;
 }
 .servicesList div a{
+    padding: 5px;
+    border-radius: 4px;
     text-decoration: none;
     color: white;
     font-size: 12px;
     margin-top: 20px;
     display: inline-block;
+}
+.servicesList div a:hover{
+    scale: 1.1;
+
 }
 .servicesList div:hover{
     background: rgb(0, 0, 119);
@@ -426,6 +435,9 @@ nav .fa-solid{
     }
     .colm2{
         font-size: 20px;
+    }
+    .colm2 p{
+        font-size: 14px;
     }
     .tabLinks{
         font-size: 16px;
