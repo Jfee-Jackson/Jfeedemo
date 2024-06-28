@@ -21,7 +21,7 @@ body{
     background-position:center;
 }
 .container{
-    padding: 10px 10%;
+    padding: 9px 9%;
 }
 nav{
     display: flex;
@@ -148,6 +148,16 @@ nav ul li a:hover::after{
     font-size: 25px;
     font-weight: 600;
 }
+.tabContent ul li img{
+    width: 50px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.tabContent ul li img:hover{
+    transform: translateY(-10px);
+    rotate: 360deg;
+    transition: 0.5s;
+}
 .tabContent{
     display: none;
 }
@@ -248,11 +258,11 @@ nav ul li a:hover::after{
     margin-top: 20px;
     color: #505CA8;
     text-decoration: none;
-    font-size: 18px;
-    line-height: 60px;
-    background: white;
-    width: 60px;
-    height: 60px;
+    font-size: 12px;
+    line-height: 40px;
+    background: white;  
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     text-align: center;
 }
